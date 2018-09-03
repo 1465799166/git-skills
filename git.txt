@@ -1,0 +1,47 @@
+以下所有的<>用于显示描述文字，实际操作时不需要
+// 初始化git项目
+git init
+// 查看
+日志
+git log
+//回退到上一个版本
+git reset --hard HEAD^ 
+// 回退到指定版本
+git reset --hard <commit id>
+//提交工作区内容到暂存区
+git add <文件名>
+// 提交暂存区内容到当前分支
+git commit -m "提交信息"
+// 查看状态（add和commit的状态）
+git status
+// 放弃工作区修改
+git checkout --<文件名>
+// 撤销提交到暂存区的修改
+git reset HEAD <文件名>
+// 删除文件
+git rm <文件名>
+// 恢复文件
+git checkout HEAD --<文件名>
+
+// 关联远程仓库
+git remote add oigin <远程仓库地址>
+// 第一次推送分支内容到远程分支
+git push -u origin <分支名>
+// 推送分支内容到远程分支
+git push origin <分支名>
+// 克隆一个远程项目
+git clone <远程仓库地址>
+
+// 创建并切换分支
+git checkout -b <分支名>
+// 查看当前分支
+git branch
+// 将指定分支合并到当前分支（先切换回当前分支，下面的分支名为 指定分支）
+git merge <分支名>
+// 删除分支
+git branch -d <分支名>
+
+// 保存现场
+git stash
+// 恢复现场
+git stash pop
