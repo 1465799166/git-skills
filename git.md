@@ -1,0 +1,1 @@
+- 关联远程库 `git remote add origin xxxx`
