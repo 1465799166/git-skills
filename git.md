@@ -5,6 +5,7 @@
   
 - hahas
 - 查看分支树 `git log --graph --all`
+- 删除分支 `git branch -d xxxx`
 - haha
 - haha
 - heihei
