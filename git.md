@@ -1,6 +1,8 @@
 - 关联远程库 `git remote add origin xxxx`
 - 创建并切换分支 `git checkout -b xxx`
 - 关联远程分支 `git branch -set-upstream xxx origin/xxx`
+- 变基 `git rebase xxx` 以xxx为标准
+- 修改head指向 `git checkout HEAD~xxx`
 - add dev mark
   
 - hahas
