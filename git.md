@@ -4,6 +4,7 @@
 - add dev mark
   
 - hahas
+- 查看分支树 `git log --graph --all`
 - haha
 - haha
 - heihei
