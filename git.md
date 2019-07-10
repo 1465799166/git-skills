@@ -1,6 +1,8 @@
 - 关联远程库 `git remote add origin xxxx`
 - 创建并切换分支 `git checkout -b xxx`
-- 关联远程分支 `git branch --set-upstream-to origin/xxx`
+- 关联远程分支
+  - 远程分支已创建： `git branch --set-upstream-to origin/xxx`
+  - 远程分支未创建 `git push --set-upstream orgin xxx`
 - 变基 `git rebase xxx` 以xxx为标准
 - 修改head指向 `git checkout HEAD~xxx`
 - add dev mark
@@ -12,6 +14,8 @@ git reset --hard xxx // 撤回到指定版本，不保留本地代码
 - 撤回远程提交 `git revert HEAD xxx`
 - 查看分支树 `git log --graph --all`
 - 删除分支 `git branch -d xxxx`
+- 重写commit信息 `git commit --amend`
+- merge并不保留原commit信息 `git merge --squash`
 
 - 合并本地某个分支多个commit 
 ``` bash
